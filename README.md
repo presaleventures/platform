@@ -1,4 +1,8 @@
-Virtual Decentralized Venture Fund and Pre-ICO Funding Marketplace   t") is a legal agreement between you, the end-user, and Digital Assets Corporation. ("DAC"). By downloading or purchasing the software material, which includes source code (the "Source Code"), artwork data, music and software tools (collectively, the "Software"), you are agreeing to be bound by the terms of this Agreement. If you do not agree to the terms of this Agreement, promptly destroy the Software you may have downloaded or copied. 
+Virtual Decentralized Venture Fund and Pre-ICO Funding Marketplace   
+
+LIMITED USE SOFTWARE LICENSE AGREEMENT
+
+This a legal agreement between you, the end-user, and Digital Assets Corporation. ("DAC"). By downloading or purchasing the software material, which includes source code (the "Source Code"), artwork data, music and software tools (collectively, the "Software"), you are agreeing to be bound by the terms of this Agreement. If you do not agree to the terms of this Agreement, promptly destroy the Software you may have downloaded or copied. 
 
 DAC SOFTWARE LICENSE
 
