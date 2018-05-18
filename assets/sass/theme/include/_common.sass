@@ -1,0 +1,492 @@
+html,
+body
+	margin: 0
+	padding: 0
+	font-size: 100%
+	font-family: 'Exo 2'
+	height: 100%
+
+img
+	max-width: 100% !important
+
+*
+	outline: none !important
+	text-decoration: none !important
+
+.logo-image
+	width: 35px
+
+.nuxt-progress
+	background: linear-gradient(to right, $main-yellow, $main-orange) !important
+
+// CORE FLEXBOX CLASSES
+
+.flex-row-start-center
+	display: flex
+	flex-flow: row wrap
+	justify-content: flex-start
+	align-items: center
+
+.flex-row-start-end
+	display: flex
+	flex-flow: row wrap
+	justify-content: flex-start
+	align-items: flex-end
+
+.flex-row-start-center-nowrap
+	display: flex
+	flex-flow: row nowrap
+	justify-content: flex-start
+	align-items: center
+
+.flex-row-center-center
+	display: flex
+	flex-flow: row wrap
+	justify-content: center
+	align-items: center
+
+.flex-row-center-center-nowrap
+	display: flex
+	flex-flow: row nowrap
+	justify-content: center
+	align-items: center
+
+.flex-row-start-start-nowrap
+	display: flex
+	flex-flow: row nowrap
+	justify-content: flex-start
+	align-items: flex-start
+
+.flex-row-start-between-nowrap
+	display: flex
+	flex-flow: row nowrap
+	justify-content: flex-start
+	align-items: space-between
+
+.flex-row-end-center
+	display: flex
+	flex-flow: row wrap
+	justify-content: flex-end
+	align-items: center
+
+.flex-row-start-baseline
+	display: flex
+	flex-flow: row wrap
+	justify-content: flex-start
+	align-items: baseline
+
+.flex-row-end-center
+	display: flex
+	flex-flow: row wrap
+	justify-content: flex-end
+	align-items: center
+
+.flex-row-between-center
+	display: flex
+	flex-flow: row wrap
+	justify-content: space-between
+	align-items: center
+
+.flex-row-between-center-nowrap
+	display: flex
+	flex-flow: row nowrap
+	justify-content: space-between
+	align-items: center
+
+.flex-row-between-start
+	display: flex
+	flex-flow: row wrap
+	justify-content: space-between
+	align-items: flex-start
+
+.flex-row-between-end
+	display: flex
+	flex-flow: row wrap
+	justify-content: space-between
+	align-items: flex-end
+
+.flex-row-between-stretch
+	display: flex
+	flex-flow: row wrap
+	justify-content: space-between
+	align-items: stretch
+
+.flex-row-between-stretch-nowrap
+	display: flex
+	flex-flow: row nowrap
+	justify-content: space-between
+	align-items: stretch
+
+.flex-column
+	display: flex
+	flex-flow: column
+
+.flex-column-start
+	display: flex
+	flex-flow: column
+	justify-content: flex-start
+
+.flex-column-center
+	display: flex
+	flex-flow: column
+	justify-content: center
+
+.flex-column-between-center
+	display: flex
+	flex-flow: column
+	justify-content: space-between
+	align-items: center
+
+// CORE FLEXBOX CLASSES
+
+//MARGINS
+
+.m-t-5
+	margin-top: 5px
+
+.m-t-10
+	margin-top: 10px
+
+.m-t-15
+	margin-top: 15px
+
+.m-t-30
+	margin-top: 30px
+
+.m-t-45
+	margin-top: 45px
+
+.m-t-60
+	margin-top: 60px
+
+.m-b-5
+	margin-bottom: 5px
+
+.m-b-10
+	margin-bottom: 10px
+
+.m-b-15
+	margin-bottom: 15px
+
+.m-b-30
+	margin-bottom: 30px
+
+.m-b-45
+	margin-bottom: 45px
+
+.m-b-60
+	margin-bottom: 60px
+
+.m-r-15
+	margin-right: 15px
+
+.m-r-5
+	margin-right: 5px
+
+//MARGINS
+
+.background-cropped
+	background-position: center center !important
+	background-size: cover !important
+	background-repeat: no-repeat !important
+
+.orange-underline-link
+	color: $link-black
+	padding-bottom: 15px
+	transition: all 0.4s ease
+	position: relative
+	font-size: 13px
+	font-weight: 500
+	&:hover
+		color: black
+	&:before
+		content: ''
+		display: block
+		position: absolute
+		left: 0
+		bottom: 7px
+		height: 2px
+		width: 0
+		background: linear-gradient(to right, $main-yellow, $main-orange)
+		transition: all 0.4s ease
+	&:hover:before
+		width: 100%
+
+.router-link-active:before
+	width: 100%
+
+.link
+	color: $links-blue
+	transition: all 0.4s ease
+	cursor: pointer
+	&:hover
+		color: darken($links-blue, 25%)
+
+.icon-left-link i
+	margin-right: 5px
+
+.icon-right-link i
+	margin-left: 5px
+
+.link-underline
+	text-decoration: underline !important
+
+.white-badge
+	padding: 5px 15px
+	border: 1px solid $main-orange
+	background: white
+	color: $main-orange
+	font-weight: 600
+	border-radius: 3px
+	display: inline-block
+
+.white-orange-block
+	padding: 5px 15px
+	border: 1px solid $main-orange
+	background: white
+	font-weight: 600
+	border-radius: 3px
+	display: inline-block
+
+.campaign-shard .white-orange-block
+	min-width: 132px
+
+.text-orange
+	color: $main-orange
+
+.big-orange-text
+	font-weight: 700
+	font-size: 24px
+	line-height: 24px
+	color: $main-orange
+
+.small-gray-text
+	font-size: 12px
+	font-weight: 300
+	color: $dark-gray
+
+.g-recaptcha
+	min-width: 100%
+	transform: scale(0.77)
+  	transform-origin: 0 0
+
+.orange-gradient-text
+	background: linear-gradient(to left, $main-yellow, $main-orange)
+	-webkit-background-clip: text
+	-webkit-text-fill-color: transparent
+	font-size: 11em
+
+.text-center
+	text-align: center
+
+.read-more-expand
+	max-height: 70px
+	overflow: hidden
+	transition: all 1.4s cubic-bezier(0.645, 0.045, 0.355, 1)
+	word-break: break-word
+	&:hover
+		max-height: 1500px
+
+.medium-gray-border-box
+	border: 2px solid $medium-gray
+	padding: 30px
+	border-radius: 2px
+
+.medium-gray-border-box-sm
+	border: 2px solid $medium-gray
+	padding: 10px 30px
+	border-radius: 2px
+
+.full-shard-info
+	margin-bottom: 10px
+	@extend .flex-row-between-end
+	.shard-description
+		@extend .flex-row-start-center
+		flex: 1
+	> div > *
+		margin: 0 15px 0 0
+		&:last-child
+			margin-right: 0
+
+.heading-checkboxes
+	@extend .flex-row-between-center
+	.checkboxes
+		@extend .flex-row-start-center
+		.checkbox-holder
+			margin-right: 45px
+			&:last-child
+				margin-right: 0
+			input
+				display: none
+			input:checked + label
+				color: black
+				&:before
+					content: '\f046'
+					font-family: 'FontAwesome'
+					transition: all 0.4s ease
+			label
+				cursor: pointer
+				font-weight: 600
+				color: $dark-gray
+				transition: all 0.4s ease
+				position: relative
+				padding-left: 15px
+				&:hover,
+				&:focus,
+				&:hover:before
+					color: black
+				&:before
+					content: '\f096'
+					font-family: 'FontAwesome'
+					position: absolute
+					left: -5px
+					top: 50%
+					transition: all 0.4s ease
+					margin-top: -6px
+					font-weight: 100
+
+.full-width
+	width: 100%
+
+.auto-width
+	width: auto !important
+
+.choose-file
+	color: $links-blue
+	text-decoration: underline !important
+	cursor: pointer
+	font-size: 12px
+
+.white-box-30
+	padding: 30px
+	box-shadow: 0 0 5px $dark-gray
+	transition: all 0.4s ease
+	border-radius: 3px
+	background: white
+	&:hover
+		box-shadow: 0 0 10px $dark-gray
+
+.white-box-15
+	padding: 15px
+	box-shadow: 0 0 5px $dark-gray
+	transition: all 0.4s ease
+	border-radius: 3px
+	background: white
+	&:hover
+		box-shadow: 0 0 10px $dark-gray
+
+.white-box-material
+	padding: 15px
+	box-shadow: 1px 1px 4px rgba(18, 16, 11, 0.18);
+	transition: all 0.4s ease
+	border-radius: 3px
+	background: white
+
+.add-team-member-form > .form-heading
+	@extend .flex-row-end-center
+
+.relative-input
+	position: relative
+	input
+		background: transparent
+
+.relative-input > .btn
+	width: auto
+	position: absolute
+	right: 0px
+	bottom: 0px
+
+.add-heading
+	@extend .flex-row-between-center
+	div:first-child
+		margin-right: 15px
+
+.add-heading.add-heading-reverse
+	flex-flow: row-reverse wrap
+
+.linked-in-link
+	color: $buttons-blue
+	transition: all 0.4s ease
+	display: inline-block
+	vertical-align: middle
+	font-weight: 700
+	i
+		margin-right: 5px
+		margin-top: -3px
+	&:hover
+		color: darken($buttons-blue, 15%)
+
+.add-member-form .avatar-block
+	@extend .flex-row-start-start-nowrap
+	margin-bottom: 15px
+	.inputs
+		flex: 1
+		.input-block
+			margin: 0
+
+.add-member-form .create-avatar
+	margin: 0 auto
+
+.add-member-form .buttons
+	@extend .flex-row-between-center
+	div
+		flex: 1
+		margin-right: 15px
+		&:last-child
+			margin-right: 0
+
+.relative-underline
+	border-bottom: 2px solid black
+	@extend .flex-row-between-center
+
+.relative-underline .text,
+.trigger-button
+	font-size: 14px
+	font-weight: 600
+
+.trigger-button
+	padding: 10px 30px
+	cursor: pointer
+	border: 2px solid black
+	margin-bottom: -2px
+
+.kyc-step-content
+	padding: 0 60px
+
+.overview-info
+	@extend .white-box-30
+
+.justify
+	text-align: justify
+	
+.icon-external-link img
+	width: 16px
+	margin-left: 5px
+
+.right-menu .icon-external-link img
+	margin-bottom: -2px
+
+.animated
+	animation-duration: 0.2s
+
+.user-pending-string
+	margin-left: 10px
+	font-size: 12px
+
+.likes
+	@extend .flex-row-start-center
+	color: $dark-gray
+	font-weight: 600
+	> div
+		margin-right: 15px
+		&:last-child
+			margin-right: 0
+	.transparent-btn
+		color: $dark-gray
+		font-size: 18px
+		line-height: 18px
+		&:hover
+			color: darken($dark-gray, 15%)
+
+.about-left .text-content
+	line-height: 24px

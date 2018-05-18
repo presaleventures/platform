@@ -1,0 +1,31 @@
+.campaign-shard-full
+	border-radius: 1px
+	overflow: hidden
+	box-shadow: 0 0 5px $dark-gray
+
+.campaign-shard-full .shard-background,
+	@extend .background-cropped
+	min-height: 312px
+	padding: 10px
+
+.campaign-shard-full .shard-video
+	position: relative
+	padding: 10px
+	// min-height: 250px
+	
+.campaign-shard-full .shard-content
+	padding: 10px
+
+.campaign-shard-full .shard-content > .name-row,
+.campaign-shard-full .shard-content > .backers
+	@extend .flex-row-between-center
+
+.campaign-shard-full .shard-content .full-shard-category
+	margin-bottom: 20px
+
+.shard-video > div:first-child
+	position: relative
+	z-index: 1
+
+.video-holder
+	margin: -41px -10px -10px -10px

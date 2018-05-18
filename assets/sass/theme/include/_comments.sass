@@ -1,0 +1,21 @@
+.comment
+	padding: 15px 0
+	@extend .flex-row-start-center
+	border-bottom: 1px solid $medium-gray
+	&:last-child
+		border-bottom: none
+
+.comment .avatar
+	@extend .background-cropped
+	width: 36px
+	height: 36px
+	margin-right: 15px
+
+.comment .comment-content .name
+	font-size: 16px
+	font-weight: 700
+
+.comment .comment-content .text-content
+	font-weight: 400
+	color: darken($dark-gray, 15%)
+	line-height: 24px

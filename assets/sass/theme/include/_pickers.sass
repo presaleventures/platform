@@ -1,0 +1,74 @@
+.vdp-datepicker__calendar
+	width: auto
+	max-width: 100%
+
+.vdp-datepicker__calendar .cell:not(.blank):not(.disabled).day:hover, .vdp-datepicker__calendar .cell:not(.blank):not(.disabled).month:hover, .vdp-datepicker__calendar .cell:not(.blank):not(.disabled).year:hover
+	background: none
+
+.vdp-datepicker__calendar .cell.selected
+	background: $main-orange
+	color: #fff
+
+.vdp-datepicker__calendar .cell:not(.blank):not(.disabled).day:hover, .vdp-datepicker__calendar .cell:not(.blank):not(.disabled).month:hover, .vdp-datepicker__calendar .cell:not(.blank):not(.disabled).year:hover
+	border-color: $main-orange
+
+.vdp-datepicker.is-invalid input
+	border-bottom: 2px solid red
+	color: red
+
+// SELECT 2
+
+.v-select .selected-tag,
+.v-select .dropdown-menu
+	font-size: 13px
+	font-weight: 500
+	// font-family: 'Exo 2'
+	
+.v-select .dropdown-menu
+	overflow-x: hidden !important
+	transform: translateY(2px)
+
+.v-select input[type="search"],
+.v-select input[type="search"]:focus
+	height: auto !important
+	padding: 15px 5px 10px !important
+	margin: 0 !important
+	font-size: 13px !important
+	line-height: 13px !important
+	font-weight: 500 !important
+	width: 100% !important
+	// border-bottom: 2px solid black !important
+
+.country-option-name
+	margin-left: 5px
+
+.v-select.dropdown,
+.v-select.dropdown.open
+	border-bottom: 2px solid black
+
+.v-select.dropdown.is-invalid
+	border-bottom: 2px solid red
+	.selected-tag
+		color: red
+
+.v-select.single .selected-tag
+	top: 15px
+	left: 5px
+	height: auto
+	margin: 0
+	padding: 0
+	border: none
+	float: none
+	line-height: 13px
+
+// SELECT 2
+
+// VUE SLIDER
+
+.vue-slider-component .vue-slider-tooltip
+	border: 1px solid $main-orange !important
+	background: $main-orange !important
+
+.vue-slider-component .vue-slider-process
+	background: $main-orange !important
+// VUE SLIDER

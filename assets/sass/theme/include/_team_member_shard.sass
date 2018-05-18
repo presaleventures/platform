@@ -1,0 +1,74 @@
+.team-member-shard
+	padding: 20px
+	box-shadow: 0 0 5px $dark-gray
+	transition: all 0.4s ease
+	border-radius: 3px
+	position: relative
+	margin-bottom: 15px
+	background: white
+	@extend .flex-row-start-start-nowrap
+	&:hover
+		box-shadow: 0 0 10px $dark-gray
+	.avatar
+		margin-right: 15px
+		.rounded-avatar
+			@extend .background-cropped
+			width: 96px
+			height: 96px
+			border-radius: 50%
+			position: relative
+			overflow: hidden
+
+.team-member-shard:last-child
+	margin-bottom: 0
+
+.team-member-shard .edit-buttons button
+	background: none
+	border: none
+	color: $dark-gray
+	transition: all 0.4s ease
+	&:hover
+		color: black
+
+.team-member-shard .edit-buttons button:first-child,
+.team-member-shard .edit-buttons button:last-child
+	position: absolute
+	top: 10px
+	cursor: pointer
+	font-size: 18px
+	font-weight: 700
+
+.team-member-shard .edit-buttons button:first-child
+	right: 35px
+
+.team-member-shard .edit-buttons button:last-child
+	right: 10px
+
+.username-linkedin
+	transition: all 0.4s ease
+	color: $buttons-blue
+	margin-left: 5px
+	&:hover
+		color: darken($buttons-blue, 15%)
+
+.username-linkedin.gray
+	color: $dark-gray
+	margin-left: 5px
+
+.avatar .rounded-avatar .edit-avatar
+	position: absolute
+	bottom: 0
+	top: 100%
+	left: 0
+	right: 0
+	background: rgba(0,0,0, 0.5)
+	transition: all 0.4s ease
+	color: white
+	text-align: center
+	padding-top: 10px
+	cursor: pointer
+	&:hover
+		background: black
+	
+.avatar:hover .rounded-avatar .edit-avatar
+	top: 50%

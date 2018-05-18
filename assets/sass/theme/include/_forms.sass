@@ -1,0 +1,119 @@
+// form
+// 	overflow: hidden
+
+input
+	font-family: 'Exo 2'
+
+.presale-form input,
+.presale-input
+	border-bottom: 2px solid $link-black
+	border-top: none
+	border-left: none
+	border-right: none
+	width: 100%
+	padding: 15px 5px 10px
+	background: transparent
+
+.presale-form .input-block
+	margin-bottom: 15px
+
+.presale-form .input-label
+	font-weight: 600
+	font-size: 16px
+
+.form-error,
+.invalid-feedback
+	color: #f00
+	font-size: 12px
+
+.is-invalid
+	border-bottom: 2px solid red !important
+	color: #f00 !important
+
+.string-before
+	padding-top: 19px
+	input
+		border-color: white
+		text-align: right
+		font-weight: 700
+	
+.user-edit-textarea
+	border: none
+	width: 100%
+	max-width: 100%
+	min-height: 65px
+	height: 65px
+	color: #000
+	font-weight: 600
+	font-size: 14px
+	font-family: 'Exo 2'
+	overflow: hidden
+	resize: none
+	padding: 0
+	transition: all 1s ease 
+
+.area-full
+	height: auto
+	max-height: 10000px
+
+.presale-select
+	border-bottom: 2px solid $link-black
+	border-top: none
+	border-left: none
+	border-right: none
+	width: 100%
+	padding: 15px 5px 10px
+	background: transparent
+
+.transparent-textarea-holder
+	padding: 15px 5px 15px
+	border-bottom: 2px solid black
+
+.transparent-textarea
+	background: transparent
+	border: none
+	min-height: 99px
+	font-family: 'Exo 2'
+	max-width: 100%
+	resize: none
+	overflow: hidden
+	display: inline-block
+	
+.form-toggle
+	margin-bottom: 15px
+	background: white
+
+.team-member-form
+	margin-bottom: 15px
+
+.add-roadmap-form
+	margin-bottom: 15px
+	@extend .white-box-15
+
+.roadmap-textarea,
+.rating-textarea
+	padding: 0
+	font-size: 14px
+	font-weight: 500
+	line-height: 24px
+	transition: all 0.4s ease
+	border: none
+	border-bottom: 2px solid black
+	width: 100%
+	resize: none
+	margin-top: 5px
+	font-family: 'Exo 2'
+	&::placeholder
+		color: $dark-gray
+
+.add-rating-form
+	@extend .white-box-15
+
+.rating-textarea
+	margin-top: 0
+
+.comment-form
+	@extend .flex-row-between-end
+	> div:first-child
+		flex: 1
+		margin-right: 5px

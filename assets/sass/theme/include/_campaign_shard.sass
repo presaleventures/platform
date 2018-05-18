@@ -1,0 +1,59 @@
+.campaign-shard
+	@extend .flex-row-between-stretch-nowrap
+	min-height: 220px
+	border-radius: 3px
+	overflow: hidden
+	transition: all 0.4s ease
+	border: 0px solid transparent
+	cursor: pointer
+	box-shadow: 0 0 5px $dark-gray
+	margin-bottom: 15px
+	&:hover
+		box-shadow: 0 0 10px $dark-gray
+
+.orange-bordered
+	border: 4px solid $main-orange
+	border-radius: 4px
+
+.campaign-shard .cs-left
+	@extend .background-cropped
+	padding: 10px
+	flex: 6
+	> div:first-child
+		position: relative
+		z-index: 1
+
+.campaign-shard .cs-right
+	padding: 10px
+	background: white
+	flex: 4
+
+.campaing-rating
+	@extend .flex-row-start-baseline
+
+.campaign-rating > .regular-text
+	margin-right: 15px
+
+.campaign-progress .backers
+	font-size: 14px
+	font-weight: 600
+
+.campaign-shard.blured
+	position: relative
+	&:before
+		content: ''
+		display: block
+		position: absolute
+		top: 0
+		left: 0
+		right: 0
+		bottom: 0
+		background: rgba(255,255,255, 0.6)
+
+.backed-block > div
+	margin-bottom: 10px
+	&:last-child
+		margin-bottom: 0
+
+.backed-block .date
+	font-size: 14px
