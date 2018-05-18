@@ -1,0 +1,56 @@
+.user-menu
+	@extend .flex-row-end-center
+	cursor: pointer
+	// position: relative
+
+.username
+	margin-right: 15px
+	// font-weight: 600
+
+.user-menu .username
+	white-space: nowrap
+	overflow: hidden
+	text-overflow: ellipsis
+	max-width: 100px
+	font-size: 13px
+	font-weight: 700
+
+.user-avatar
+	width: 36px
+	height: 36px
+	border-radius: 50%
+	@extend .background-cropped
+
+.user-inner-menu
+	position: absolute
+	top: 0
+	right: 0
+	width: 180px
+	padding: 73px 0 0 0
+	overflow: hidden
+	box-shadow: 0 0 4px $dark-gray
+	transition: all 0.4s ease
+	.user-links-holder
+		padding: 0 10px
+		background: white
+	.user-links-holder div:last-child a
+		border-bottom: none
+	.user-links-holder div:first-child a
+		border-top: 1px solid $light-gray
+
+.user-menu-link
+	display: block
+	padding: 15px
+	border-bottom: 1px solid $light-gray
+	cursor: pointer
+	font-size: 13px
+	font-weight: 700
+	color: black
+
+.fade-enter-active, .fade-leave-active 
+  transition: opacity .5s
+
+.fade-enter, .fade-leave-to
+  opacity: 0
+
+	

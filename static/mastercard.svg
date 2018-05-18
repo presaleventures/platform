@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 52.901001 32.707001"
+   height="32.707001mm"
+   width="52.901001mm">
+  <defs
+     id="defs2" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(0,-264.293)"
+     id="layer1">
+    <g
+       transform="translate(-24.196233,214.66243)"
+       id="g912">
+      <g
+         id="g853"
+         transform="matrix(1.0397133,0,0,-1.0397133,76.600047,76.119856)">
+        <path
+           id="path851"
+           d="M 0,0 V 0.61 H -0.159 L -0.343,0.191 -0.526,0.61 h -0.16 V 0 h 0.113 v 0.46 l 0.172,-0.397 h 0.117 l 0.172,0.398 V 0 Z m -1.009,0 v 0.506 h 0.204 v 0.103 h -0.52 V 0.506 h 0.204 V 0 Z"
+           style="fill:#f79410" />
+      </g>
+      <path
+         id="path855"
+         d="M 57.802031,78.848064 H 43.493913 V 53.133876 h 14.308118 z"
+         style="fill:#ff5f00;stroke-width:0.8317706" />
+      <g
+         id="g859"
+         transform="matrix(1.0397133,0,0,-1.0397133,44.410524,65.98889)">
+        <path
+           id="path857"
+           d="m 0,0 c 0,5.017 2.349,9.486 6.007,12.366 -2.675,2.106 -6.051,3.363 -9.72,3.363 -8.686,0 -15.727,-7.042 -15.727,-15.729 0,-8.687 7.041,-15.729 15.727,-15.729 3.669,0 7.045,1.257 9.72,3.363 C 2.349,-9.486 0,-5.017 0,0"
+           style="fill:#eb001b" />
+      </g>
+      <g
+         id="g863"
+         transform="matrix(1.0397133,0,0,-1.0397133,77.099109,65.98889)">
+        <path
+           id="path861"
+           d="m 0,0 c 0,-8.687 -7.041,-15.729 -15.727,-15.729 -3.669,0 -7.045,1.257 -9.721,3.363 3.659,2.88 6.008,7.349 6.008,12.366 0,5.017 -2.349,9.486 -6.008,12.366 2.676,2.106 6.052,3.363 9.721,3.363 C -7.041,15.729 0,8.687 0,0"
+           style="fill:#f79e1b" />
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,35 @@
+.user > .main-info
+	@extend .flex-row-start-start-nowrap
+
+.user > .main-info .avatar
+	min-width: 125px
+	min-height: 125px
+	width: 125px
+	height: 125px
+	border-radius: 50%
+	margin-right: 30px
+	@extend .background-cropped
+
+.user > .main-info .text-content
+	text-align: justify
+
+.user-balance
+	.add-funds,
+	.widthdraw
+		@extend .flex-row-between-center
+
+.user-balance button.btn-gray
+	min-width: 200px
+
+.user-buttons
+	@extend .flex-row-between-stretch
+	button
+		height: 100%
+		width: 100%
+
+.user-buttons > div
+	flex: 3.5
+	margin-right: 15px
+	&:last-child
+		flex: 6
+		margin-right: 0

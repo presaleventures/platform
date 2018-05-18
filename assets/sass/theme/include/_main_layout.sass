@@ -1,0 +1,111 @@
+.right-top-holder
+	padding-top: 4px
+	margin-bottom: 15px
+
+.main-navigation-layout
+	position: fixed
+	top: 0
+	left: 0
+	right: 50%
+	z-index: 1
+	@extend .flex-row-end-center
+	.navigation-block
+		width: 585px
+		padding: 15px
+		position: relative
+
+.main-footer-layout
+	position: fixed
+	bottom: 0
+	left: 0
+	right: 50%
+	max-height: 50px
+	@extend .flex-row-end-center
+	.main-footer
+		width: 585px
+
+.nuxt-content .left
+	position: fixed
+	top: 73px
+	bottom: 50px
+	left: 0
+	right: 50%
+	overflow: hidden
+	@extend .flex-row-end-center
+
+.nuxt-content .right
+	position: fixed
+	top: 0
+	bottom: 0
+	right: 0
+	left: 50%
+	overflow-y: scroll
+	overflow-x: hidden
+	background-repeat: repeat-y !important
+	background: url('/shadow.png') #f4f6f8
+	@extend .flex-row-start-start-nowrap
+
+.nuxt-content .left .left-content,
+.nuxt-content .right .right-content
+	padding: 15px
+	max-height: 100%
+
+.nuxt-content .left .left-content
+	overflow-y: scroll
+	min-width: 615px
+	width: 615px
+	margin-right: -30px
+	padding-right: 30px
+	padding-top: 15px
+	min-height: 100%
+
+.nuxt-content .right .right-content
+	min-width: 615px
+	width: 615px
+
+.normalize
+	width: 555px
+	height: 100%
+
+@media(max-width: 1260px)
+	.nuxt-content,
+	.main-navigation-layout,
+	.main-footer-layout
+		min-width: 615px
+
+	.nuxt-content .left,
+	.nuxt-content .right
+		position: static
+		width: 100%
+		> .left-content,
+		> .right-content
+			margin: 0 auto
+
+	.main-navigation-layout,
+	.main-footer-layout
+		position: static
+		display: flex
+		flex-flow: row nowrap
+		justify-content: center
+		align-items: center
+		
+	.nuxt-content .right
+		background-repeat: repeat-x !important
+		background: url('/shadow2.png'),  url('/shadow3.png') #f4f6f8
+		background-position: top center, bottom center
+		overflow: hidden
+
+	.main-footer-layout
+		max-height: none
+		background: #fff
+		
+	.main-navigation-layout .navigation-block
+		padding: 15px 0
+		
+	.nuxt-content .left .left-content
+		width: auto
+		overflow: hidden
+		padding: 15px
+
+	.normalize
+		width: 585px

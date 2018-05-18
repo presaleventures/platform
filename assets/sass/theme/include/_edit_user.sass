@@ -1,0 +1,45 @@
+.edit-profile-block > .main-info
+	@extend .flex-row-start-start-nowrap
+
+.edit-profile-block .main-info .avatar
+	min-width: 125px
+	min-height: 125px
+	width: 125px
+	height: 125px
+	border-radius: 50%
+	margin-right: 30px
+	@extend .background-cropped
+	position: relative
+	overflow: hidden
+	
+.edit-profile-block .main-info .user-info
+	flex: 1
+
+.change-avatar
+	position: relative
+	height: 100%
+	.inner-change-avatar
+		position: absolute
+		top: 100%
+		left: 0
+		right: 0
+		padding: 10px 15px
+		background: rgba(0,0,0, 0.6)
+		color: #fff
+		transition: all 0.4s ease
+		text-align: center
+		cursor: pointer
+		&:hover
+			background: #000
+		span
+			font-size: 13px
+
+.change-avatar:hover > .inner-change-avatar
+	// top: none
+	bottom: 0
+	top: 50%
+
+.user-info .username .fa-pencil
+	margin-left: 10px
+	cursor: pointer
+	transition: all 0.4s ease

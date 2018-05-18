@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 145 145"
+   height="145mm"
+   width="145mm"
+   sodipodi:docname="about_logo.svg"
+   inkscape:version="0.92.3 (3ce5693, 2018-03-11)">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1619"
+     inkscape:window-height="1026"
+     id="namedview3839"
+     showgrid="false"
+     inkscape:zoom="1.5820259"
+     inkscape:cx="274.01575"
+     inkscape:cy="274.01575"
+     inkscape:window-x="1501"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg8" />
+  <defs
+     id="defs2">
+    <linearGradient
+       gradientUnits="objectBoundingBox"
+       id="lgrd2-black-white"
+       spreadMethod="pad"
+       x1="0"
+       x2="1"
+       y1="0"
+       y2="1">
+      <stop
+         offset="0%"
+         stop-color="#A00000"
+         id="stop816" />
+      <stop
+         offset="100%"
+         stop-color="white"
+         id="stop818" />
+    </linearGradient>
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       id="lgrd2-peachpuff-sienna-v"
+       spreadMethod="pad"
+       x1="0"
+       x2="0"
+       y1="0"
+       y2="1">
+      <stop
+         offset="0"
+         style="stop-color: red; stop-opacity: 1;"
+         id="stop821" />
+      <stop
+         offset="100%"
+         style="stop-color: mediumslateblue; stop-opacity: 1;"
+         id="stop823" />
+    </linearGradient>
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       id="lgrd2-peachpuff-sienna-h"
+       spreadMethod="reflect"
+       x1="0"
+       x2="1"
+       y1="0"
+       y2="0"
+       gradientTransform="matrix(0.60063544,0.82587292,-0.82587292,0.60063544,0,0)">
+      <stop
+         offset="0.23466651"
+         style="stop-color: rgb(255, 214, 64); stop-opacity: 1;"
+         id="stop826" />
+      <stop
+         offset="0.77174157"
+         style="stop-color: rgb(255, 135, 88); stop-opacity: 1;"
+         id="stop828" />
+    </linearGradient>
+    <linearGradient
+       gradientUnits="objectBoundingBox"
+       id="lgrd2-fire"
+       spreadMethod="pad"
+       x1="0"
+       x2="1"
+       y1="0"
+       y2="0">
+      <stop
+         offset="0%"
+         style="stop-color:rgb(255,255,0);stop-opacity:1"
+         id="stop831" />
+      <stop
+         offset="100%"
+         style="stop-color:rgb(255,0,0);stop-opacity:1"
+         id="stop833" />
+    </linearGradient>
+    <linearGradient
+       gradientUnits="objectBoundingBox"
+       id="lgrd2-b"
+       spreadMethod="reflect"
+       x1="0"
+       x2="1"
+       y1="0"
+       y2="0">
+      <stop
+         offset="0%"
+         stop-color="#BBC42A"
+         id="stop836" />
+      <stop
+         offset="100%"
+         stop-color="#ED6E46"
+         id="stop838" />
+    </linearGradient>
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       id="lrgd2-e1"
+       spreadMethod="repeat"
+       x1="0"
+       x2="1"
+       y1="0"
+       y2="0">
+      <stop
+         offset="0%"
+         stop-color="lightblue"
+         id="stop841" />
+      <stop
+         offset="100%"
+         stop-color="#ef5b2b"
+         id="stop843" />
+    </linearGradient>
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       id="lrgd2-e1-50-reflect"
+       spreadMethod="reflect"
+       x1="0"
+       x2="0.5"
+       y1="0"
+       y2="0"
+       gradientTransform="rotate(60.8025)">
+      <stop
+         offset="0%"
+         stop-color="#FF8758"
+         id="stop846" />
+      <stop
+         offset="100%"
+         stop-color="#FFD640"
+         id="stop848" />
+    </linearGradient>
+    <linearGradient
+       gradientUnits="objectBoundingBox"
+       id="lgrd2-peachpuff-sienna-v-6"
+       spreadMethod="pad"
+       x1="0"
+       x2="0"
+       y1="0"
+       y2="1">
+      <stop
+         offset="0%"
+         style="stop-color: rgb(255, 218, 185); stop-opacity: 0.84;"
+         id="stop5251" />
+      <stop
+         offset="100%"
+         style="stop-color:sienna;  stop-opacity:1"
+         id="stop5253" />
+    </linearGradient>
+    <linearGradient
+       gradientUnits="objectBoundingBox"
+       id="lgrd2-black-white-3"
+       spreadMethod="pad"
+       x1="0"
+       x2="1"
+       y1="0"
+       y2="1">
+      <stop
+         offset="0%"
+         stop-color="#ffd460"
+         id="stop5256" />
+      <stop
+         offset="100%"
+         stop-color="#ff8758"
+         id="stop5258" />
+    </linearGradient>
+    <linearGradient
+       spreadMethod="pad"
+       y2="423.24405"
+       x2="760.48804"
+       y1="128.32812"
+       x1="381.36475"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient5360"
+       xlink:href="#lgrd2-peachpuff-sienna-h" />
+    <linearGradient
+       spreadMethod="pad"
+       y2="423.24405"
+       x2="760.48804"
+       y1="128.32812"
+       x1="381.36475"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient5362"
+       xlink:href="#lgrd2-peachpuff-sienna-h" />
+    <linearGradient
+       spreadMethod="pad"
+       y2="423.24405"
+       x2="760.48804"
+       y1="128.32812"
+       x1="381.36475"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient5364"
+       xlink:href="#lgrd2-peachpuff-sienna-h" />
+    <linearGradient
+       spreadMethod="pad"
+       y2="423.24405"
+       x2="760.48804"
+       y1="128.32812"
+       x1="381.36475"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient5366"
+       xlink:href="#lgrd2-peachpuff-sienna-h" />
+  </defs>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(0,-152)"
+     id="layer1">
+    <image
+       width="148.62024"
+       height="174.13364"
+       preserveAspectRatio="none"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAApCAYAAABdnotGAAAAAXNSR0IB2cksfwAACJ9JREFUeJzF WA9sVVcZ/855/9rXljIKmDHYwpyBbSJRygrCQh0ROjBRyTbRSbeZOmecJhqi09CuDMiCf7JENBrR KR3LBrh/RgclcVkYWxEpS2FsRDLiJK6W/u/re333zznH7/y77777XpvOajzJzXv33nO/73e+7/f9 vnMvhRmOsTONc8ffXHso1732uezJjy+YqT06k4dHu9Y2xAjroQzuAQZbSLKyJ3NyZduVw6sr/y+A 4pVwKxViAXABRHDA37kxEt9Zd63flTtRv/V/Dkig3/A58XhOKDAC5C8wBCUYUCKWEwHPTLy68s9j r9y65r8OaOxc49Lsudt/Ot6z5paiG0yjFJwrMCQAJ6OFN7l3R4LHX813LvtV/vjNH5kxIHHh7mTu rXXfjRNxGjj5JnFIPHwffSZUVCQAkNFRaUNwQv/K60LEhRBf5Zyedo4u2SEOL5ySX5MC6u/acO+o M3QGV7wXI1GDjrM8xpzwHAJsTIIg6FdFR4FhBow+CIKSUaOczcZF7col02dGjyxunjag0Z7GVYPd tx+tqXUOphL+Mu6DWik6FcQTRRxKp/yXme9vRRCXKQgFTKZQRUpwA1ADE0ynEqN9S2WCHMg8e31n 7sj8T04KSOQ33zjRc8cvkjHSVVOZbOIeGvD1CoMUJIsfJvXdXs26s4cqRH6563ntjHkZZdDwSS5E IMkl0VUV4nWBEZRHZQXZEBOJ1/OH5uwXLyz6cACoo+NjVX/69Yod/qB/SsTEQ3IVvuuDsiONCtCl JQ265cNMPnVhvGb9uZ3vZvobYp74HVXTbZR4IX0SmKwEPPVdD2/jOU+28NhI19Hvw46O7VBFt62/ 9uVNn567y7nqzNORNiWsCalXaXgA7iSIzFi2pfedeFPPA9Rn6yh4nanZRHOdMQXMVp/gXkB6wV3w hjPzmuph17YGOEZzw+4nJsYcoDFhuaJXpYiogQTGpjkSm985kdp0qenF4yPbuO9dVhFTaZPpslHz 8RwPPqR442YAnHFYQTGvg2CFTUZHhQlzac+Diil1/PfnPrp5vPPGR0R7+Wr9/M7eg25+qJ6LzGOE +1lLdCErRSACBENMIqRP9DGoDZmSlcipqhRJRgNEEtG0hgin4YZr4jckafXj2fqlbwwcWvS5cqBm 3zs6XLnl6qPgTTQIj74oII92B9BXXqfTgpEii9SlYKpIE1iENIQZYmK0DJeiHHLz7ij3fEhQ2lA7 q+YF56WbDuRfWrykHLDUl4YuvN873B6nrpYHSY0wGKGmEWqB6Ek8aANgNIXY0i3DIUkxnW4ffM+T f5tRrbqd5xc83vtk9bySB0S2NsazGogRdgvOHlSVtS1JrtNnr1FTuoX2EBlMa4ww6VYIGa+iIvXI NVXVr410fGhxeHqSQcwCAQvKRIcaeaGUaWW1SqqMahHSPGKG0FyU4FHVwxSIYFHSA2cqLUuq4n2L o8+EwahUmSip676KkFFiIYJuHfDIKrQw7HMixomfJkhDosD7ernMVynkuEKPSQZHERWAqEwUKkxH CsJktn2I8RAQplsBK00Zc/2/EjZxSqWT6xQqEZUKLBCLV5pl4hcAkEikFIeEcUzCYISuMt0/REH+ I6PqrvfeTJ6/skYw52FgznvyGdUauIPPZErmKywRMJZDFiQlltScBZERJkVKtU069TJKnZB24BVf +NfPXSe+gnlXfyLYQJ4o0UNsMShehQ+mExSiovpkaDuFHPJ1/7KVJLhS6WDrIFhBsadoZbPu++dg uhm2e3lYiY/8AbRSVJdMjJQ5mMTI+UQBCoBAZMdnd4CmD8kSn7q3qlHTAm+l7ofPotl7EgBXSiaE CBxwiRfu0QCEKDRSCA5fbREoM1IQ6R25A3Bd5kkoFUAc6RY4knoALoav1cl4eSFQlkNck53qCJmY BRsxu6niRkm5CatM2WCRUxKr2ZiKw4n+n8G0XnmePw+DalEhMJrDGqQUfaPU3JCXFyqOc7MfluD8 skpNRWYCpy6dUwvPeL+Fo+4voX4yMAO74brrK+HbzIMiDSLFmkSo7WH6taXAIQsmeMURXimHMKPS kHSC05qwqk6Kp2HfwRZYaKf074Ua9gRsr5sNpxqXwf0sBwFvAoUGfY2rlBkgynLAHfvmwAp6xEs5 ZA1ZcUPjKX8CHt5wM3Rf2gMtzj64uyoFp3kMfuS5sNBDNSAEijgU2DDKIrcfdYFSB5HhoaYp1JZT krskQibcIpQCuc2ZVw3zb5oP+/H+4QSBpTykxJYzZh+oUmYbAo46WlENZ1Py1c1jpidpUst+RNTO TubDw//DOGm8fHQsMY3QedjzvJz+rxyx0BwDQN4Ldot4LYHRT8bgLH3qj0Objr021pqcBf36dcXX 6WH6zUHgkokYKWhFmZQV9SSjL1bsrOCREPiicsfzeAUMdF6EtuN/g420+cd92Tvbe3dTx1slBNYJ EjhpYyjGQLaBYCWRbg+mbEuAhAhLwtdFIToxCDZov0ENWtXUAbs2PgXZYHNOPvOPyxV39X6dCbY6 42SPxUkfPpTXkbIciA4WOgzooHJEIXLEANe9Sv/P5+G478Ga+E5oIa3wrjVZ8raQ3tp3qrY5c+dY Br7s5uE8gcAwAR5plhDapId5FIlSOLW+C29nx+G+qj2wMb0H3ojam/Rjw5wH4en0FajH1X0PjWYw ClVoMBWNUNFGnZVJmQGDdByhDFpTGaiv3Qsdk/md8nMMbi3cxFfgh+joNnS8D/nuRwGFtw42ZUGq NBgfz/cLArfF2mE3eQImpvI5rQ9Wqa/BxeRD8K3kN+Dtkpvh0g+lzVTSKxMcGuOt8GBFK1yajq8P 9EkPVVZEztNBipju2Ep7OPRgir6YbIX1s9rg9Q/iY0YfPbFNXEAw79vKwZQN4OvZo31pWJ1qg2f/ E5szApT+AfzFycFy3EIfxtj9HvvV8so2eGzRd6bmyVTj31hmXRNSTMvPAAAAAElFTkSuQmCC "
+       id="image5302"
+       x="-239.86369"
+       y="31.528427" />
+    <g
+       transform="translate(-27.285714,92.29762)"
+       style="fill:url(#linearGradient5360);fill-opacity:1"
+       id="g5340">
+      <polygon
+         id="polygon5307"
+         points="287,400.6 287,304.9 287,235.2 287,232.5 143.7,315.3 143.7,584.8 287,667.5 287,470.3 "
+         class="st1"
+         style="fill:url(#linearGradient5362);fill-opacity:1"
+         transform="matrix(0.26458333,0,0,0.26458333,0.02456971,13.139882)" />
+      <polygon
+         id="polygon5309"
+         points="347.3,339.7 347.3,435.5 444.3,491.5 444.3,395.7 "
+         class="st1"
+         style="fill:url(#linearGradient5364);fill-opacity:1"
+         transform="matrix(0.26458333,0,0,0.26458333,0.02456971,13.139882)" />
+      <polygon
+         id="polygon5311"
+         points="504.6,526.3 443.2,560.5 347.3,505.1 347.3,702.3 377.1,719.5 610.4,584.8 610.4,315.3 377.1,180.5 347.3,197.7 347.3,270.1 504.6,360.9 504.6,430.6 "
+         class="st1"
+         style="fill:url(#linearGradient5366);fill-opacity:1"
+         transform="matrix(0.26458333,0,0,0.26458333,0.02456971,13.139882)" />
+    </g>
+  </g>
+  <style
+     type="text/css"
+     id="style852">
+	.st1{fill:url(#lrgd2-e1-50-reflect);}
+</style>
+  <style
+     type="text/css"
+     id="style5262">
+	.st1{fill:url(#lgrd2-black-white);}
+</style>
+  <style
+     type="text/css"
+     id="style5305">
+	.st1{fill:#ffffff;}
+</style>
+</svg>

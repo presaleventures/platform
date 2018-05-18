@@ -1,0 +1,127 @@
+.btn
+	border: none
+	font-weight: 600
+	font-size: 15px
+	width: 100%
+	text-align: center
+	padding: 10px 15px
+	transition: all 0.4s ease
+	cursor: pointer
+	font-family: 'Exo 2'
+	i
+		margin-right: 15px
+
+.btn-big
+	padding: 10px 45px
+	font-size: 21px
+	font-weight: 500
+	transition: all 0.4s ease
+	cursor: pointer
+	font-family: 'Exo 2'
+	text-align: center
+	border: none
+	border-radius: 2px
+
+.btn-gray
+	background: $medium-gray
+	&:hover
+		background: darken($medium-gray, 10%)
+
+.btn-darkgray
+	background: $dark-gray
+	color: $medium-gray
+	&:hover
+		color: $light-gray
+
+.btn-black
+	background: $link-black
+	color: #fff
+	&:hover
+		background: black
+
+.btn-blue
+	background: $buttons-blue
+	color: #fff
+	&:hover
+		background: darken($buttons-blue, 15%)
+
+.linked-in-button
+	text-align: center
+
+.linked-in-button button.btn
+	width: auto
+	padding: 10px 30px
+
+.user-buttons .bordered-btn
+	border-radius: 2px
+
+.bordered-btn
+	cursor: pointer
+	background: transparent
+	font-family: 'Exo 2'
+	padding: 8px 15px
+	border: 2px solid
+	border-color: #000
+	font-size: 15px
+	font-weight: 600
+	color: #000
+	.btn-heading
+		font-size: 24px
+		font-weight: 700
+		line-height: 35px
+	.btn-small-heading
+		font-size: 15px
+		font-weight: 700
+		color: #000
+
+.bordered-btn.success
+	border-color: #28a745
+	color: #28a745
+	.btn-heading
+		color: #28a745
+
+.bordered-btn.danger
+	border-color: #f44336
+	color: #f44336
+	.btn-heading
+		color: #f44336
+
+.bordered-btn.info
+	border-color: $buttons-blue
+	color: $buttons-blue
+	.btn-heading
+		color: $buttons-blue
+
+.lin-btn i
+	transform: translateY(-1px)
+	margin-right: 10px
+
+.small-black-btn
+	background: #000
+	color: #fff
+	padding: 3px 15px
+	font-size: 12px
+	font-weight: 700
+	border: none
+	transition: all 0.4s ease
+	cursor: pointer
+	i
+		margin-right: 5px
+
+.icon-btn
+	background: none
+	border: none
+	color: #fff
+	transition: all 0.4s ease
+	cursor: pointer
+	font-size: 18px
+	font-weight: 400
+	i
+		text-shadow: -1px 0 $main-orange, 0 1px $main-orange, 1px 0 $main-orange, 0 -1px $main-orange 
+
+.transparent-btn
+	border: none 
+	outline: none
+	background: none
+	cursor: pointer
+	transition: all 0.4s ease

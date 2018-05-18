@@ -1,0 +1,77 @@
+.roadmap-shard
+	@extend .flex-row-start-center
+	padding-bottom: 15px
+	position: relative
+	.shard-date
+		font-weight: 700
+		font-size: 18px
+		flex: 1
+		position: relative
+		line-height: 18px
+	.shard-date .quarter
+		margin-right: 10px
+	.shard-content
+		font-size: 14px
+		font-weight: 500
+		line-height: 24px
+		flex: 3.5
+		text-align: justify
+		.edit-content
+			line-height: 0
+
+.roadmap-shard .shard-date:before,
+.roadmap-shard .shard-date:after
+	content: ''
+	display: block
+	position: absolute
+
+.roadmap-shard .shard-date:before
+	width: 10px
+	height: 10px
+	border-radius: 50%
+	border: 2px solid black
+	top: 50%
+	right: 20px
+	margin-top: -5px
+	background: #f4f6f8
+	z-index: 1
+
+.roadmap-shard .dash
+	position: absolute
+	border: 1px dashed black
+	top: 0
+	bottom: -3px
+	right: 486px
+
+.roadmap-shard:first-child .dash
+	top: 50%
+	margin-top: -5px
+
+.roadmap-shard:last-child .dash
+	bottom: 53%
+	margin-top: -5px
+
+.roadmap-shard .buttons
+	float: right
+	margin: 0 0 0px 15px
+
+.roadmap-shard .buttons button:last-child
+	margin-right: 0px
+
+.roadmap-shard .buttons button
+	background: none
+	border: none
+	color: $dark-gray
+	cursor: pointer
+	transition: all 0.4s ease
+	padding: 0
+	margin-right: 10px
+	&:hover
+		color: black
+
+.roadmap-shard .pending-block
+	position: absolute
+	left: 15px
+	bottom: 50%
+	font-size: 12px
+	margin-bottom: -20px

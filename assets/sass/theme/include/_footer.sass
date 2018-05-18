@@ -1,0 +1,23 @@
+footer.main-footer
+	@extend .flex-row-between-center
+	padding: 15px
+
+.footer-block:first-child
+	@extend .flex-row-start-center
+
+.footer-block:last-child
+	@extend .flex-row-end-center
+
+.footer-block span,
+.footer-block img
+	margin-right: 15px
+	font-size: 14px
+	line-height: 14px
+	color: $dark-gray
+	&:last-child
+		margin-right: 0
+
+.footer-images
+	@extend .flex-row-end-center
+	img
+		width: 45px !important
